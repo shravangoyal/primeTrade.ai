@@ -1,0 +1,96 @@
+.tasks-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tasks-container h2 {
+  margin-bottom: 20px;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.task-form button:hover {
+  background: #1e40af;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-title {
+  font-size: 15px;
+  color: #333;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
+.edit-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.edit-btn:hover {
+  background: darkorange;
+}
+
+.save-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.cancel-btn {
+  background: gray;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
